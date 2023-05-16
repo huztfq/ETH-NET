@@ -8,8 +8,8 @@ Creating a private Ethereum network using Geth is a great way to experiment with
 Install Geth: Download and install the latest version of Geth for your platform from the official website: https://geth.ethereum.org/
 
 Create a new directory for your private network:
-$ mkdir my-private-network
-$ cd my-private-network
+mkdir my-private-network
+cd my-private-network
 
 -----------------------------------------------------------------------------------------
 TO DOWNLOAD GETH
