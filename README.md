@@ -20,8 +20,11 @@ tar -xvf geth-linux-amd64-1.11.6-ea9e62ca.tar.gz
 cd geth-linux-amd64-1.11.6-ea9e62ca
 
 sudo mv geth /usr/local/bin/
+
 -------------------------------------------------------------------------------------------
 TO VALIDATE
+geth init --datadir ./data genesis.json
+
 -----------------------------------------------------------------------------------------------
 TO RUN
 geth --datadir ./data --networkid 12345 --nodiscover --http --http.addr 127.0.0.1 --http.port 8545 --http.api "eth,web3,personal,net,miner" --allow-insecure-unlock --mine --miner.etherbase=0x15Ee69DDA18AE1FAe5EE234BD5195A013d53Bea6
