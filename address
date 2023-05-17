@@ -1,3 +1,5 @@
+GENESIS BLOCK
+
 Account 01
 ------------------------------------------------------------------------------------------------------------------------
 Your new key was generated
@@ -15,5 +17,9 @@ Public address of the key:   0x4cB721D99FC157CB2d774990b36fA7Db68401A56
 Path of the secret key file: data/keystore/UTC--2023-05-17T08-52-58.411648634Z--4cb721d99fc157cb2d774990b36fa7db68401a56
 ..........................................................................................................................
 
-NODE O2
+NODE O1
 
+Your new key was generated
+
+Public address of the key:   0xcAA1d27510121B931bCA1ca88F9C0DdD50a505E5
+Path of the secret key file: data/keystore/UTC--2023-05-17T09-15-47.788172201Z--caa1d27510121b931bca1ca88f9c0ddd50a505e5
