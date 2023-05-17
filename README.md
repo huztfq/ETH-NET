@@ -3,6 +3,14 @@ Creating a Private Ethereum Network for running Dapp || Smart Contract
 -----------------------------------------------------------------------------
 FOLLOWING ARE THE STEPS TO MAKE YOUR OWN PRIVATE ETHEREUM TESTNET
 -------------------------------------------------------------------------------
+AWS SECURITY GROUP
+n the security group step, you'll need to set up rules that allow traffic on certain ports: A security group acts as a virtual firewall for your instance to control inbound and outbound traffic. For Ethereum network, you should open the following ports:
+
+SSH (TCP port 22) for remote management. This is how you'll connect to your instance from your local machine.
+Ethereum P2P (TCP and UDP port 30303) for the Ethereum peer-to-peer network. This is necessary for your nodes to communicate with each other.
+Ethereum IPC (Inter-Process Communication) if you are going to use it, it is optional. This is used for local communication between Ethereum software.
+-------------------------------------------------------------------------------
+
 Creating a private Ethereum network using Geth is a great way to experiment with smart contracts, decentralized applications (DApps), and learn about blockchain technology. Here's a step-by-step guide to help you set up a private Ethereum network using Geth:
 
 Install Geth: Download and install the latest version of Geth for your platform from the official website: https://geth.ethereum.org/
